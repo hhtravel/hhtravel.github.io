@@ -1,0 +1,218 @@
+/*
+font-family: 'Karma', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Hind Vadodara', sans-serif;
+*/
+
+
+
+
+body {
+	margin: auto;
+	background-color: floralwhite;
+}
+
+.navbar {
+	background-color: floralwhite;
+	z-index: 9999;
+	text-align: center;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding: 10px;
+	position: fixed;
+	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
+
+}
+.nav-button {
+	display: inline;
+	font-family: 'Karma', serif;
+	padding: 1em;
+	margin: 1em;
+	transition: .3s ease-in-out;
+}
+
+.nav-button:hover {
+	background-color: #2e4184;
+	color: floralwhite;
+	transition: .3s ease-in-out;
+}
+
+.smallLogo {
+	display: inline;
+	max-height: 50px;
+	max-width: 100px;
+	float: left;
+	padding: none;
+	margin-top: -7px;
+	margin-left: -10px;
+	margin-right: -100px;
+}
+
+.header {
+	text-align: center;
+	color: floralwhite;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: minmax(50px, auto);
+	margin-bottom: 150px;
+	margin-top: 200px;
+	color: #2e4184;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.headerBackground {
+	background-image: url(./images/background.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-o-filter: blur(3px);
+	-ms-filter: blur(3px);
+	filter: blur(3px);
+	width: 1200px;
+	height: 1200px;
+	position: fixed;
+	z-index: -1;
+	margin: auto;
+	display: block;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin-top: -200px;
+
+}
+
+.logo {
+	grid-column: 2;
+	grid-row-start: 1;
+	grid-row-end: span 2;
+	margin: auto;
+	padding-bottom: 25px;
+}
+
+.title {
+	grid-column: 2;
+	grid-row: 3;
+	margin: auto;
+	font-family: 'Karma', serif;
+
+}
+
+.statement {
+	grid-column: 2;
+	grid-row: 4;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+.boxOne {
+	margin: auto;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 25px;
+
+}
+
+.basicInfo {
+	display: grid;
+	grid-column-gap: 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: minmax(50px, auto);
+}
+
+.philosophy {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.phil {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.philWords {
+	font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+.resources {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.res {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.resWords {
+	font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+.cruises {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.cruise {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.cruiseWords {
+	font-family: 'Hind Vadodara', sans-serif;
+
+}
+
+.tours {
+	grid-column: 4;
+	grid-row: 1;
+}
+
+.toursTitle {
+font-family: 'Roboto', sans-serif;
+}
+
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 15px;
+	grid-template-rows: minmax(50px, auto);
+	font-family: 'Hind Vadodara', sans-serif;
+	padding: 5px;
+	background-color: #2e4184;
+	color: floralwhite;
+}
+
+.company {
+	grid-column: 3;
+	grid-row: 1;
+	text-align: center;
+	margin: auto;
+	border-left: 1px solid floralwhite;
+	border-right: 1px solid floralwhite;
+	padding: 25px;
+}
+
+
+
+.address {
+	grid-column: 2;
+	grid-row: 1;
+	margin: auto;
+	
+}
+
+.phone {
+	grid-column: 4;
+	grid-row: 1;
+	margin: auto;
+	
+}
+
