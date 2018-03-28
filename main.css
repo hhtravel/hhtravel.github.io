@@ -79,13 +79,6 @@ a {
 	background-image: url(./images/background.jpeg);
 	background-position: center;
 	background-repeat: no-repeat;
-	/*
-	-webkit-filter: blur(3px);
-	-moz-filter: blur(3px);
-	-o-filter: blur(3px);
-	-ms-filter: blur(3px);
-	filter: blur(3px);
-	*/
 	width: 1200px;
 	height: 1200px;
 	position: fixed;
