@@ -2,8 +2,7 @@
 font-family: 'Karma', serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Hind Vadodara', sans-serif;
-font-family: 'Nanum Gothic', sans-serif;
-
+font-family: 'Abel', sans-serif;
 */
 
 
@@ -31,8 +30,23 @@ a {
 	padding: 10px;
 	position: fixed;
 	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
-
+	transition: .3s ease-in-out;
 }
+
+.hideBar {
+	background-color: floralwhite;
+	z-index: -9999;
+	text-align: center;
+	top: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	padding: 10px;
+	position: fixed;
+	opacity: 0;
+	transition: .3s ease-in-out;
+}
+
 .nav-button {
 	display: inline;
 	font-family: 'Karma', serif;
@@ -139,7 +153,7 @@ a {
 }
 
 .phil {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 1.3em;
 }
 
@@ -155,7 +169,7 @@ a {
 }
 
 .res {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 1.3em;
 
 }
@@ -172,7 +186,7 @@ a {
 }
 
 .cruise {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 1.3em;
 
 }
@@ -189,7 +203,7 @@ a {
 }
 
 .toursTitle {
-	font-family: 'Nanum Gothic', sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 1.3em;
 }
 
@@ -309,4 +323,72 @@ a {
 .showing {
 	opacity: 1;
 
+}
+
+/* Styling for resources.html */
+
+.resheader {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: minmax(50px, auto);
+	
+	margin-top: 200px;
+	color: #2e4184;
+	background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.buttons-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: minmax(50px auto);
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 200px;
+	padding-bottom: 50px;
+}
+
+
+
+.buttonrowone {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.buttonrowtwo {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.buttonrowthree {
+	grid-column: 4;
+	grid-row: 1;
+}
+
+.buttonrowfour {
+	grid-column: 5;
+	grid-row: 1;
+}
+
+button {
+	border: none;
+	background-color: #22abb1;
+	padding: 10px;
+	margin: 10px;
+	width: 200px;
+	height: 75px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	transition: .3s ease-in-out;
+	text-align: center
+}
+
+button:hover {
+	background-color: #2e4184;
+	transition: .3s ease-in-out;
+	color: floralwhite;
+}
+
+.resButton {
+	text-align: center;
 }

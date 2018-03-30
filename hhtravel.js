@@ -5,21 +5,31 @@ var slideInterval = setInterval(nextSlide, 4000);
 
 function nextSlide(){
 
-	console.log(slides);
+	
 
 	slides[currentSlide].className = 'pic';
 	currentSlide = (currentSlide+1)%slides.length;
 	slides[currentSlide].className = 'pic showing';
-	console.log(currentSlide);
+	
 
 	if(currentSlide > 0){
 
 	prevSlide = (currentSlide-1)%slides.length;
 	slides[prevSlide].removeClass = 'showing';
-	console.log(prevSlide);
-
+	
 	}
 
 }
 
+function screenScroll(){
+	 if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        document.getElementById("navbar").className = "hideBar";
+    } else {
+        document.getElementById("navbar").className = "navbar";
+    }
+}
+
+
+window.onscroll = function(){screenScroll()};
 document.window = nextSlide;
+
