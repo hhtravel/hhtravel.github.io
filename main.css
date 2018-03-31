@@ -30,7 +30,7 @@ a {
 	padding: 10px;
 	position: fixed;
 	box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.3);
-	transition: .3s ease-in-out;
+	transition: .1s ease-in-out;
 }
 
 .hideBar {
@@ -44,7 +44,7 @@ a {
 	padding: 10px;
 	position: fixed;
 	opacity: 0;
-	transition: .3s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 .nav-button {
@@ -52,7 +52,7 @@ a {
 	font-family: 'Karma', serif;
 	padding: auto;
 	margin: 1em;
-	transition: .3s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 .nav-button:hover a {
@@ -134,7 +134,6 @@ a {
 .boxOne {
 	margin: auto;
 	text-align: center;
-	background-color: rgba(255, 255, 255, 0.8);
 	padding-left: 65px;
 	padding-right: 70px;
 
@@ -150,6 +149,8 @@ a {
 .philosophy {
 	grid-column: 1;
 	grid-row: 1;
+	background-color: rgba(255, 255, 255, 0.8);
+
 }
 
 .phil {
@@ -159,13 +160,15 @@ a {
 
 .philWords {
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
+	padding: 10px;
 
 }
 
 .resources {
 	grid-column: 2;
 	grid-row: 1;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .res {
@@ -176,13 +179,15 @@ a {
 
 .resWords {
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
+	padding: 10px;
 
 }
 
 .cruises {
 	grid-column: 3;
 	grid-row: 1;
+	background-color: rgba(255, 255, 255, 0.8);
 }
 
 .cruise {
@@ -193,13 +198,16 @@ a {
 
 .cruiseWords {
 	font-family: 'Hind Vadodara', sans-serif;
-	font-size: 1.2em;
+	font-size: 1em;
+	padding: 10px;
 
 }
 
 .tours {
 	grid-column: 4;
 	grid-row: 1;
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-right: -5px;
 }
 
 .toursTitle {
@@ -392,3 +400,143 @@ button:hover {
 .resButton {
 	text-align: center;
 }
+
+/* End Styling for resources.html */
+/* Styling for about.html */
+.aboutheader {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: minmax(50px, auto);
+	
+	margin-top: 200px;
+	color: #2e4184;
+	background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.about {
+	display: grid;
+	grid-template-columns: 1fr 2fr 25px 350px 1fr 1fr;
+	grid-template-rows: minmax(5px, 1fr);
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 200px;
+	padding-bottom: 50px;
+}
+
+.profile {
+	grid-column: 2;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	width: 250px;
+	padding-top: 25px;
+}
+
+.info {
+	grid-column: 4;
+	grid-row: 1;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-indent: 25px;
+	font-size: 1.3em;
+}
+.info2 {
+	grid-column: 4;
+	grid-row: 2;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-indent: 25px;
+	font-size: 1.3em;
+}
+.info3 {
+	grid-column: 4;
+	grid-row: 3;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-indent: 25px;
+	font-size: 1.3em;
+}
+.info4 {
+	grid-column: 4;
+	grid-row: 4;
+	font-family: 'Hind Vadodara', sans-serif;
+	text-indent: 25px;
+	font-size: 1.3em;
+}
+
+/* End of about.html */
+/* Start of contact.html */
+
+.contactForm {
+	display: grid;
+	grid-template-columns: 1fr 1fr 300px 1fr;
+	grid-column-gap: 100px;
+	grid-template-rows: minmax(50px, auto);
+	background-color: rgba(255, 255, 255, 0.8);
+	padding-bottom: 50px;
+}
+
+.contactlayout {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+.contactHeader {
+	grid-column: 2;
+	grid-row: 1;
+	font-family: 'Abel', sans-serif;
+	font-size: 2em;
+	padding-left: 10px;
+
+}
+
+.contact {
+	grid-column: 2;
+	grid-row: 2;
+	padding: 10px;
+}
+
+input, textarea, select {
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #2e4184;
+}
+
+select {
+	width: 275px;
+}
+
+textarea {
+	width: 255px;
+	height: 100px;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 10px;
+}
+
+.submit {
+	float: right;
+	padding: auto;
+	margin-right: -1px;
+	font-size: 1em;
+	width: 100px;
+	height: auto;
+}
+
+.contactinfo {
+	grid-column: 3;
+	grid-row: 1;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contactinfoheader {
+	grid-column: 3;
+	grid-row: 2;
+	font-family: 'Abel', sans-serif;
+	margin-bottom: 40px;
+}
+
+.contactphone, .contactemail {
+	font-size: 1.1em;
+
+}
+

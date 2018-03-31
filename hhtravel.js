@@ -22,7 +22,7 @@ function nextSlide(){
 }
 
 function screenScroll(){
-	 if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+	 if (document.body.scrollTop > 125 || document.documentElement.scrollTop > 125) {
         document.getElementById("navbar").className = "hideBar";
     } else {
         document.getElementById("navbar").className = "navbar";

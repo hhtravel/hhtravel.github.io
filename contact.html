@@ -11,7 +11,7 @@
     <!-- Font Awesome Icons -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
-	<title>Resources</title>
+	<title>Contact</title>
 	<link rel="stylesheet" href="main.css" type="text/css"/>
 </head>
 <body>
@@ -32,9 +32,9 @@
 </div>
 <!--- end of navbar -->
 
-	<div class="resheader">
+	<div class="aboutheader">
 
-			<h1 class="title">Travel Resources</h1>
+			<h1 class="title">Contact Us</h1>
 			
 	</div>
 	
@@ -42,25 +42,36 @@
 
 <!-- start of body -->
 
-	<div class="buttons-container">
-		
-			<div class="buttonrowone">
-				<button><a class="resButton" href="https://travel.state.gov/content/travel/en/passports.html/passport_1738.html" target="_blank">Government Passport Services</a></button>
-				<button><a class="resButton" href="https://www.cdc.gov/vaccines/index.html" target="_blank">Center for Disease Control</a></button>
-			</div>
-			<div class="buttonrowtwo">
-				<button><a class="resButton" href="https://www.weather.gov/" target="_blank">National Weather Service</a></button>
-				<button><a class="resButton" href="https://travel.state.gov/content/visas/en/general/americans-traveling-abroad.html" target="_blank">Americans Traveling Abroad Foreign Entry Requirements</a></button>
-			</div>
-			<div class="buttonrowthree">
-				<button><a class="resButton" href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html" target="_blank">State Department Travel Warnings</a></button>
-				<button><a class="resButton" href="https://www.tsa.gov/" target="_blank">Transportation Security Administration</a></button>
-			</div>
-			<div class="buttonrowfour">
-				<button><a class="resButton" href="http://www.xe.com/" target="_blank">Currency Exchange</a></button>
-				<button><a class="resButton" href="https://www.tsa.gov/precheck" target="_blank">TSA Pre-Check</a></button>
-			</div>
-		
+	<div class="contactForm">
+		<div class="contactlayout">
+			<h1 class="contactHeader">Message in a <span style="color: #22abb1">Bottle</span></h1>
+			<form class="contact" name="contactForm">
+				<label for="name">Name:</label><br>
+				<input name="name" type="text" required placeholder="Enter Name Here" size="30"><br>
+
+				<label for="email">Email:</label><br>
+				<input name="email" type="email" required placeholder="Enter Email Address" size="30"><br>
+
+				<label for="phone">Phone:</label><br>
+				<input name="phone" type="phone" placeholder="Enter Phone Number" size="30"><br>
+
+				<label for="options">Request Information:</label><br>
+				<select name="options">
+					<option value="Cruise">Cruises</option>
+					<option value="landTours">Land Tours</option>
+					<option value="other">Other</option>
+				</select><br>
+
+				<label for="comments">Comments:</label><br>
+				<textarea name="comments" value="comments" placeholder="Enter Text Here" size="30"></textarea>
+			<button class="submit" type="submit" target="contactForm">Submit</button>
+			</form>
+		</div>
+		<div class="contactinfo">
+			<h1 class="contactinfoheader">Contact Information</h1>
+			<p class="contactphone"><i class="fas fa-phone"></i>: +1 (512)-576-8337</p>
+			<p class="contactemail"><i class="fas fa-envelope"></i>: heavenlyholidaytravel@gmail.com</p>
+		</div>
 	</div>
 
 
